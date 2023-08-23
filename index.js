@@ -1,9 +1,7 @@
 let randomNumber = Math.random() * 6;
 randomNumber = Math.floor(randomNumber) + 1;
 let one = "./images/dice" + randomNumber + ".png";
-document
-  .getElementById("one")
-  .setAttribute("src", `/images/dice${randomNumber}.png`);
+document.getElementById("one").setAttribute("src", one);
 
 let randomNumber1 = Math.random() * 6;
 randomNumber1 = Math.floor(randomNumber1) + 1;
